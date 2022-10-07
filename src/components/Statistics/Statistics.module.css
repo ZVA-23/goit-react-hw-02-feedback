@@ -1,0 +1,21 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    gap: 15px;
+    
+}
+
+.list:last-child {
+    margin-bottom: 0;
+}
+
+.item {
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.span {
+    color: #008000; 
+}

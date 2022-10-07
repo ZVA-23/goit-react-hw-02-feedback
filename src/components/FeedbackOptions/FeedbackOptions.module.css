@@ -1,0 +1,36 @@
+.btn-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    border-style: groove;
+    border-radius: 25px;
+
+    align-items: center;
+    font-family: inherit;
+    font-size: 16px;
+    color: black;
+}
+
+.btn:nth-child(1) {
+    background-color: rgb(72, 167, 72);
+}
+
+.btn:nth-child(2) {
+    background-color: rgb(241, 241, 88);
+}
+
+.btn:nth-child(3) {
+    background-color: rgb(223, 27, 27);
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
